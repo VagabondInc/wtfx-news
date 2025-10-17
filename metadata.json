@@ -1,0 +1,5 @@
+{
+  "name": "WTFX News Now Generator",
+  "description": "A stylized app that generates viral, absurdist news stories using the Gemini API, styled to look like a high-budget local television news station's website.",
+  "requestFramePermissions": []
+}
