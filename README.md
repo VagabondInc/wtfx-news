@@ -74,11 +74,9 @@ WTFX News Now is an extravagant, over-engineered AI-powered news story generator
    # Google Gemini AI
    API_KEY=your_gemini_api_key_here
    
-   # Fal.ai API (for Veo3, Chatterbox, Runway, Ideogram, BackgroundRemover)
+   # Fal.ai API (for Veo3, Chatterbox, Ideogram, BackgroundRemover)
    FAL_API_KEY=
-   
-   # RunwayML API (direct access)
-   RUNWAY_API_KEY=k
+
    ```
 
 4. **Start the development server**
