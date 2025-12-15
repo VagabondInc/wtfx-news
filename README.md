@@ -23,11 +23,11 @@ WTFX News Now is an extravagant, over-engineered AI-powered news story generator
 
 ### Video Production Pipeline
 1. **Seedance Lite i2v Generation** - 8-second on-camera segments for anchors and reporters
-2. **Generate TTS Audio for each segment using reference audio** - using segmind chatterbox
+2. **Generate TTS Audio for each segment using reference audio** - using Fal.ai chatterbox
 4. **B-Roll Generation** - 5-second visual segments with Seedance Lite i2v
 5. **Lower Third Graphics** - Professional news graphics with gemini imagen4
 6. **Background Removal** - Clean graphics processing
-7. **TTS Generation** - Voice-cloned narration for B-roll segments with segmind chatterbox
+7. **TTS Generation** - Voice-cloned narration for B-roll segments with Fal.ai chatterbox
 8. **Video Composition** - Final assembly and editing
 
 ### Extravagant UI
@@ -40,11 +40,11 @@ WTFX News Now is an extravagant, over-engineered AI-powered news story generator
 
 - **Frontend**: React 19 + TypeScript + Vite
 - **AI Story Generation**: Google Gemini 2.5 Flash
-- **Video Generation**: Segmind Seedance Lite i2v
-- **Voice Cloning**: Chatterbox (via segmind)
+- **Video Generation**: Fal.ai Seedance Lite i2v
+- **Voice Cloning**: Chatterbox (via Fal.ai)
 - **B-Roll Generation**: Seedance Lite i2v
 - **Graphics**: Gemini Imagen4
-- **Background Removal**: BackgroundRemover (via segmind)
+- **Background Removal**: BackgroundRemover (via Fal.ai)
 - **Audio Processing**: FFmpeg.js + Web Audio API
 - **Video Composition**: HTML5 Canvas
 
@@ -53,7 +53,7 @@ WTFX News Now is an extravagant, over-engineered AI-powered news story generator
 - Node.js 18+ and npm
 - API Keys for:
   - Google Gemini AI
-  - segmind (for seedance, Chatterbox, BackgroundRemover)
+  - Fal.ai (for seedance, Chatterbox, BackgroundRemover)
 
 ## 🔧 Installation
 
